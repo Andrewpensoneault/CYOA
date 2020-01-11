@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module rpg.character</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong><a href="rpg.html"><font color="#ffffff">rpg</font></a>.character</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/andrew/Dropbox/Personal/Personal%20Projects/CYOA/rpg/character.py">/home/andrew/Dropbox/Personal/Personal Projects/CYOA/rpg/character.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="rpg.character.html#Character">Character</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="rpg.character.html#Enemy">Enemy</a>
+</font></dt></dl>
+</dd>
+</dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Character">class <strong>Character</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#Character">Character</a>(character_name)<br>
+&nbsp;<br>
+<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Character-__init__"><strong>__init__</strong></a>(self, character_name)</dt><dd><tt>Initializes&nbsp;the&nbsp;<a href="#Character">Character</a>&nbsp;class&nbsp;with&nbsp;a&nbsp;name</tt></dd></dl>
+
+<dl><dt><a name="Character-describe"><strong>describe</strong></a>(self)</dt><dd><tt>Prints&nbsp;the&nbsp;character&nbsp;description</tt></dd></dl>
+
+<dl><dt><a name="Character-fight"><strong>fight</strong></a>(self, combat_item)</dt><dd><tt>Prints&nbsp;the&nbsp;<a href="#Character">Character</a>'s&nbsp;fighting&nbsp;rejection&nbsp;line</tt></dd></dl>
+
+<dl><dt><a name="Character-get_description"><strong>get_description</strong></a>(self)</dt><dd><tt>Returns&nbsp;the&nbsp;<a href="#Character">Character</a>&nbsp;description</tt></dd></dl>
+
+<dl><dt><a name="Character-get_item"><strong>get_item</strong></a>(self)</dt><dd><tt>Returns&nbsp;the&nbsp;<a href="#Character">Character</a>'s&nbsp;held&nbsp;item</tt></dd></dl>
+
+<dl><dt><a name="Character-get_name"><strong>get_name</strong></a>(self)</dt><dd><tt>Returns&nbsp;the&nbsp;<a href="#Character">Character</a>'s&nbsp;name</tt></dd></dl>
+
+<dl><dt><a name="Character-set_description"><strong>set_description</strong></a>(self, character_description)</dt><dd><tt>Sets&nbsp;the&nbsp;<a href="#Character">Character</a>&nbsp;description</tt></dd></dl>
+
+<dl><dt><a name="Character-set_dialog"><strong>set_dialog</strong></a>(self, character_dialog)</dt><dd><tt>Sets&nbsp;the&nbsp;<a href="#Character">Character</a>'s&nbsp;dialog</tt></dd></dl>
+
+<dl><dt><a name="Character-set_item"><strong>set_item</strong></a>(self, new_item)</dt><dd><tt>Sets&nbsp;the&nbsp;<a href="#Character">Character</a>'s&nbsp;held&nbsp;item</tt></dd></dl>
+
+<dl><dt><a name="Character-steal"><strong>steal</strong></a>(self)</dt><dd><tt>Returns&nbsp;the&nbsp;<a href="#Character">Character</a>'s&nbsp;item&nbsp;if&nbsp;an&nbsp;item&nbsp;is&nbsp;held</tt></dd></dl>
+
+<dl><dt><a name="Character-talk"><strong>talk</strong></a>(self)</dt><dd><tt>Prints&nbsp;the&nbsp;<a href="#Character">Character</a>'s&nbsp;dialog</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Enemy">class <strong>Enemy</strong></a>(<a href="rpg.character.html#Character">Character</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#Enemy">Enemy</a>(character_name)<br>
+&nbsp;<br>
+<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="rpg.character.html#Enemy">Enemy</a></dd>
+<dd><a href="rpg.character.html#Character">Character</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="Enemy-__init__"><strong>__init__</strong></a>(self, character_name)</dt><dd><tt>Initializes&nbsp;the&nbsp;<a href="#Enemy">Enemy</a>&nbsp;subclass&nbsp;with&nbsp;a&nbsp;name</tt></dd></dl>
+
+<dl><dt><a name="Enemy-fight"><strong>fight</strong></a>(self, combat_item)</dt><dd><tt>Fights&nbsp;the&nbsp;enemy,&nbsp;returns&nbsp;if&nbsp;the&nbsp;weakness&nbsp;is&nbsp;chosen&nbsp;and&nbsp;false&nbsp;otherwise</tt></dd></dl>
+
+<dl><dt><a name="Enemy-get_weakness"><strong>get_weakness</strong></a>(self)</dt><dd><tt>Returns&nbsp;the&nbsp;<a href="#Enemy">Enemy</a>'s&nbsp;weakness</tt></dd></dl>
+
+<dl><dt><a name="Enemy-set_weakness"><strong>set_weakness</strong></a>(self, weakness_name)</dt><dd><tt>Sets&nbsp;the&nbsp;<a href="#Enemy">Enemy</a>'s&nbsp;weakness</tt></dd></dl>
+
+<dl><dt><a name="Enemy-talk"><strong>talk</strong></a>(self)</dt><dd><tt>Prints&nbsp;the&nbsp;<a href="#Enemy">Enemy</a>'s&nbsp;rejection&nbsp;line</tt></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>number_dead_enemy</strong> = 0</dl>
+
+<hr>
+Methods inherited from <a href="rpg.character.html#Character">Character</a>:<br>
+<dl><dt><a name="Enemy-describe"><strong>describe</strong></a>(self)</dt><dd><tt>Prints&nbsp;the&nbsp;character&nbsp;description</tt></dd></dl>
+
+<dl><dt><a name="Enemy-get_description"><strong>get_description</strong></a>(self)</dt><dd><tt>Returns&nbsp;the&nbsp;<a href="#Character">Character</a>&nbsp;description</tt></dd></dl>
+
+<dl><dt><a name="Enemy-get_item"><strong>get_item</strong></a>(self)</dt><dd><tt>Returns&nbsp;the&nbsp;<a href="#Character">Character</a>'s&nbsp;held&nbsp;item</tt></dd></dl>
+
+<dl><dt><a name="Enemy-get_name"><strong>get_name</strong></a>(self)</dt><dd><tt>Returns&nbsp;the&nbsp;<a href="#Character">Character</a>'s&nbsp;name</tt></dd></dl>
+
+<dl><dt><a name="Enemy-set_description"><strong>set_description</strong></a>(self, character_description)</dt><dd><tt>Sets&nbsp;the&nbsp;<a href="#Character">Character</a>&nbsp;description</tt></dd></dl>
+
+<dl><dt><a name="Enemy-set_dialog"><strong>set_dialog</strong></a>(self, character_dialog)</dt><dd><tt>Sets&nbsp;the&nbsp;<a href="#Character">Character</a>'s&nbsp;dialog</tt></dd></dl>
+
+<dl><dt><a name="Enemy-set_item"><strong>set_item</strong></a>(self, new_item)</dt><dd><tt>Sets&nbsp;the&nbsp;<a href="#Character">Character</a>'s&nbsp;held&nbsp;item</tt></dd></dl>
+
+<dl><dt><a name="Enemy-steal"><strong>steal</strong></a>(self)</dt><dd><tt>Returns&nbsp;the&nbsp;<a href="#Character">Character</a>'s&nbsp;item&nbsp;if&nbsp;an&nbsp;item&nbsp;is&nbsp;held</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="rpg.character.html#Character">Character</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table>
+</body></html>
