@@ -3,7 +3,7 @@ from os import system, name
 
 
 def clear(): 
-# method for clearing line
+    """ method for clearing line """
     # for windows 
     if name == 'nt': 
         _ = system('cls') 
